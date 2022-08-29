@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+}
+
+
+/*****************
+HEADER
+*****************/
+
+header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    background: none;
+}
+
+img.logo {
+    padding: 30px;
+    height: 40px;
+}
+
+input.search-bar {
+    width: 35%;
+    border: 1px solid #F8F7F7;
+    border-radius: 30px;
+    font-size: 35px;
+    background: none;
+}
+
+img.catagory {
+    height: 25px;
+    padding: 15px;
+}
+
+img.favorites {
+    height: 17px;
+    padding: 20px;
+}
+
+img.search {
+    position: absolute;
+    right: 300px;
+    height: 42px;
+    top: 30px;
+    background: none;
+}
+
+
+
+
+/************
+Footer
+*************/
+
+hr.footer-line {
+    width: 93%;
+    margin-left: 4%;
+}
+
+img.footer-logo {
+    width: 5%;
+    padding: 1%;
+}
+
+
+/*************
+Main 
+*************/
+
+
+.watch-trailer-div {
+    display: flex;
+    align-items: center;
+    background: none;
+}
+
+button.watch-trailer {
+    background: none;
+    border: none;
+}
+
+section.banner-section {
+    position: relative;
+}
+
+img.banner {
+    width: 100%;
+}
+
+.banner-overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    width: 94%;
+    padding: 3%;
+}
+
+p.banner-description {
+    font-size: 30px;
+}
+
+img {
+    background: none;
+}
+
+div {
+    background: none;
+}
+
+h3 {
+    background: none;
+    color: #E0E0E0;
+    font-size: 23px;
+}
+p {
+    background: none;
+    color: #E0E0E0;
+    font-size: 18px;        
+}
+
+.featured-description-div {
+    position: absolute;
+    top: 743px;
+    left: 40px;
+}
+
+p.featured-description {
+    font-size: 30px;
+}
+
+h1.newly-released-header {
+    font-size: 70px;
+    padding: 110px 190px;
+}
+
+section.newly-released {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.movie {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rating-div {
+    display: flex;
+    align-items: center;
+}
+
+span.trailer-button {
+    margin-left: 35%;
+}
+
+h2.movie-title {
+    width: 65%;
+    font-size: 25px;
+}
+
+img.star {
+    margin-bottom: 3%;
+}
+
+span.outof5 {
+    color: #E0E0E0;
+    padding: 0% 2%;
+}
+
+.movie-card {
+    padding: 2%;
+    width: 470px;
+    margin: 34px;
+}
+
+img.favorite-button {
+    position: relative;
+    bottom: 515px;
+    right: 65px;
+}
+
+
+section.preview {
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 700%;
+}
+
+a {
+    background: none;
+}
+
+.categories {
+    position: absolute;
+    background-color: rgba( 0, 0, 0, 0.5);
+    opacity: 50%;
+    top: 80px;
+}
+
+img.navbar-icon {
+    width: 60px;
+}
+
+.categories h3 {
+    font-size: 40px;
+    line-height: 1.5;
+
+}
+
+@media screen and (max-width:400px) {
+    * {
+        margin: 0%;
+    }
+
+    p.banner-description {
+        font-size: 12px;
+    }
+
+    img.watch-trailer-featured {
+        height: 44px;
+    }
+
+    h1.newly-released-header {
+        font-size: 40px;
+        padding: 40px 50px;
+    }
+
+    section.banner-section {
+        position: relative;
+        top: 100px;
+    }
+
+    .movie-card {
+        padding: 2%;
+        width: 100%;
+    }
+
+    img.favorite-button {
+        position: relative;
+    }
+}
+img.navbar-icon{
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    img.navbar-icon{
+        display: block;
+    }
+    #header nav img {
+        display: none;
+    }
+    #header nav img.search {
+        display: block;
+        position: relative;
+        top: 0;
+        right: 50px;
+    }
+    #header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    img.search {
+        position: inherit;
+    }
+
+    nav {
+        width: auto;
+    }
+
+    hr.footer-line {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    input.search-bar {
+        width: 65%;
+    }
+
+    section.banner-section {
+        top: 80px;
+    }
+
+    h1.newly-released-header {
+        font-size: 46px;
+        padding: 113px 167px;
+    }
+
+
+}
+
+@media screen and (max-width:900px) and (min-width:600px) {
+    
+}
