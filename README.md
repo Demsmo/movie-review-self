@@ -31,7 +31,7 @@ Check out [API LIVE DEMO](https://synamatic-elsa-backend.herokuapp.com/) here!!
 git clone git@github.com:https://github.com/Elsa2022/Synamatic.git
 ```
 
-2. Backend setting
+2. Backend setting 
 
 ```
 cd backend
